@@ -1,0 +1,81 @@
+a {
+    color: #656161;
+    font-size: 14px;
+}
+
+a:hover {
+    color: #656161;
+}
+
+input {
+    border: 1px solid #d1d0d0;
+    border-radius: 10px;
+    height: 35px;
+    width: 500px;
+}
+
+input:hover {
+    box-shadow: 2px 1px 2px 1px rgba(61, 91, 104, 0.2);
+}
+
+.btn {
+    margin-top: 20px;
+    border: none;
+    color: #656161;
+    background-color: #eeebeb;
+}
+
+.btn:hover {
+    box-shadow: 1px 1px 1px 1px rgba(138, 158, 167, 0.2);
+    border: 1px solid #b6acac;
+}
+
+#searchForm {
+    font-size: small;
+}
+
+#advancedSearch {
+    font-size: 12px;
+}
+
+#advancedSearch h5 {
+    color: rgb(214, 46, 46);
+}
+
+#advancedSearch input {
+    border-radius: 2px;
+    border-color: rgb(191, 187, 187);
+}
+
+#advancedSearch button {
+    background-color: rgb(77, 144, 254);
+    color: #fff;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;  
+}
+
+#advancedSearch button:hover {
+    border: 1px solid rgb(50, 94, 165);
+}
+
+div#logo {
+    background-image: url("google_logo.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+    position: relative;
+}
+
+div#logo-subtext {
+    color: rgb(62, 130, 240);
+    margin-left: 200px;
+    position: absolute; 
+    bottom:0; 
+    right: 510px; 
+    top: 90px;
+}
+
